@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int num;
-    char a;
+    char a,b,c;
     cout<<"enter a salary";
     cin>>num;
      if(num>=10000 && num<50000){
@@ -22,10 +22,10 @@ int main(){
      else if(num<=50000 && num>100000){
         cout<<"enter tv or fridge";
         cin>>num>>a;
-        if(a=="tv"){
+        if(b=="tv"){
             cout<<"50000";
         }
-        else if(a=="fridge"){
+        else if(b=="fridge"){
             cout<<"70000";
         }
         else{
@@ -35,10 +35,10 @@ int main(){
      else if(num<=100000 && num>=500000){
          cout<<"enter bike or car:- ";
          cin>>num>>a;
-         if(a=="bike"){
+         if(c=="bike"){
              cout<<"200000";
          }
-         else if(a=="car"){
+         else if(c=="car"){
              cout<<"300000";
          }
          else{
