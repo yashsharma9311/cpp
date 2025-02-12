@@ -12,7 +12,7 @@ int main()
 
 
     else{
-        cout<<"the number is not divisible by 2";
+       cout<<"the number is not divisible by 2";
     }
 
 
