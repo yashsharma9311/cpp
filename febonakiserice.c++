@@ -8,4 +8,4 @@ int sum(int n){
 }
 int main(){
     cout<<sum(5);
-}
+} 
