@@ -15,5 +15,5 @@ int main(){
     else{
         cout<<"not a anagram";
     }
-
+    return 0;
 }
