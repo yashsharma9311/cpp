@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//prime number with function
 int primenumber(int num){
     if(num<=1){
         cout<<"not a prime number";
