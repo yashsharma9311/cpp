@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 int mai(){
+    
     string s1="anagram";
     string s2="aaangrm";
 
