@@ -23,5 +23,5 @@ int mai(){
             return 0;
         }
     }
-    cout<<"anagram";
+    cout<<"anagram"; 
 }
