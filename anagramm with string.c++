@@ -20,7 +20,7 @@ int mai(){
         }
         if(check==false){
             cout<<"not a anagram";
-            return 0;
+            return 0; 
         }
     }
     cout<<"anagram"; 
