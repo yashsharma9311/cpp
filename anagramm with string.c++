@@ -1,12 +1,12 @@
 #include<iostream>
 using namespace std;
 int mai(){
-    
-    string s1="anagram";
-    string s2="aaangrm";
+     
+    string s1="anagram"; 
+    string s2="aaangrm"; 
 
-    if(s1.length() != s2.length()){
-        cout<<"not a anagram";
+    if(s1.length() != s2.length()){ 
+        cout<<"not a anagram"; 
         return 0;
     }
     for(int i=0; i<s1.length();i++){
