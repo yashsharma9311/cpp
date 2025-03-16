@@ -17,7 +17,7 @@ int mai(){
                 check=true;
                 break;
             }
-        }
+        } 
         if(check==false){
             cout<<"not a anagram";
             return 0; 
