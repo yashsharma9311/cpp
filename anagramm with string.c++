@@ -2,7 +2,7 @@
 using namespace std;
 int mai(){
      
-    string s1="anagram"; 
+    string s1="anagram";  
     string s2="aaangrm"; 
 
     if(s1.length() != s2.length()){ 
