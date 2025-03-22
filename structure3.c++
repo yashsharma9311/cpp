@@ -9,7 +9,7 @@ struct demo{
         age=a;
     }
     void character(char a){
-        name=a;
+        name=a; 
     }
 
     void show(){
