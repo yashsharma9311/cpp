@@ -16,7 +16,7 @@ struct student{
     void show(){
         cout<<roll<<" "<<name<<" "<<gread<<endl;
     }
-};
+}; 
 int main(){
     student s;
     s.roll=1;
