@@ -12,7 +12,7 @@ struct student{
     void character(char a){
         gread=a;
     }
-     
+    
     void show(){
         cout<<roll<<" "<<name<<" "<<gread<<endl;
     }
