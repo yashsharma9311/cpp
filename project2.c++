@@ -224,7 +224,6 @@ cout<<"\nPerson not found.\n";
 }
 }
 
-
 //hotel managemt generates the bill of the expenses
 void HotelMgnt::checkOut(int roomNum)
 {
@@ -258,7 +257,6 @@ cout<<"\n*** Total Payable: "<<billAmount-rooms[i].cust.payment_advance<<"/ only
 rooms[i].status=0;
 }
 }
-
 
 //managing rooms (adding and searching available rooms)
 void manageRooms()
@@ -307,6 +305,7 @@ cin>>rno;
 room.searchRoom(rno);
 break;
 case 3:
+
 //nothing to do
 break;
 default:
@@ -322,7 +321,6 @@ class HotelMgnt hm;
 int i,j,opt,rno;
 char ch;
 char pname[100];
-
 
 do
 {
