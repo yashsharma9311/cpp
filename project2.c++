@@ -44,13 +44,13 @@ Room Room::addRoom(int rno)
 {
 class Room room;
 room.roomNumber=rno;
-cout<<"\nType AC/Non-AC (A/N) : ";
+cout<<"\nType AC/Non-AC (A/N) :- ";
 cin>>room.ac;
-cout<<"\nType Comfort (S/N) : ";
+cout<<"\nType Comfort (S/N) :- ";
 cin>>room.type;
-cout<<"\nType Size (B/S) : ";
+cout<<"\nType Size (B/S) :- ";
 cin>>room.stype;
-cout<<"\nDaily Rent : ";
+cout<<"\nDaily Rent :- ";
 cin>>room.rent;
 room.status=0;
 
@@ -119,17 +119,14 @@ for(int i=0;i<count;i++)
 {
 if(rooms[i].status==1)
 {
-cout<<"\n Customer First Name : "<<rooms[i].cust.name;
-cout<<"\n Room Number : "<<rooms[i].roomNumber;
-cout<<"\n Address (only city) : "<<rooms[i].cust.address;
-cout<<"\n Phone : "<<rooms[i].cust.phone;
+cout<<"\n Customer First Name :- "<<rooms[i].cust.name;
+cout<<"\n Room Number :- "<<rooms[i].roomNumber;
+cout<<"\n Address (only city) :- "<<rooms[i].cust.address;
+cout<<"\n Phone :- "<<rooms[i].cust.phone;
 cout<<"\n---------------------------------------";	
 }
-	
 }
-
 }
-
 //hotel management reservation of room
 void HotelMgnt::checkIn()
 {
@@ -201,7 +198,6 @@ if(found==0)
 cout<<"\nAll rooms are reserved";
 }
 }
-
 
 //hotel management shows all persons that have booked room
 void HotelMgnt::searchCustomer(char *pname)
@@ -390,6 +386,7 @@ cout<<"\nPlease Enter correct option";
 break;
 }
 }while(opt!=7);
+
 
 return 0;
 }
