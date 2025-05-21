@@ -385,6 +385,7 @@ default:
 cout<<"\nPlease Enter correct option";
 break;
 }
-}while(opt!=7);
+}
+while(opt!=7);
 return 0;
 }
